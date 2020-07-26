@@ -1,6 +1,7 @@
 @charset "UTF-8";
 table, th, td {
     border: 1px solid black;
+    border-spacing: 0 15px;
   }
 
 
