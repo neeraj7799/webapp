@@ -5,7 +5,7 @@ table{
 table, td {
     
     border: 1px solid black;
-
+    /* border-spacing: 0 15px; */
   }
   td{
     text-align: center;
