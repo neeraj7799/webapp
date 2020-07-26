@@ -1,11 +1,15 @@
 @charset "UTF-8";
-table, th, td {
+table{
+    border-collapse: separate;
+}
+table, td {
+    
     border: 1px solid black;
     border-spacing: 0 15px;
   }
   td{
     text-align: center;
-    padding: 2px;
+    padding: 4px;
   }
 
 
