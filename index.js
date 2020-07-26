@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/',function(req,res) {
 	// res.send("Hello World");
-	res.sendFile(__dirname+'/frontend/html/index.html');
+	res.sendFile(__dirname+'/frontend/html/cover_letter.html');
 })
 
 app.get('/resume',function(req,res) {
