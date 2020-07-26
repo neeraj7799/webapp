@@ -6,6 +6,11 @@ app.get('/',function(req,res) {
 	res.sendFile(__dirname+'/frontend/html/index.html');
 })
 
+app.get('/resume',function(req,res) {
+	// res.send("Hello World");
+	res.sendFile(__dirname+'/frontend/html/index.html');
+})
+
 var port=process.env.PORT || 30000;
 
 app.listen(port, function() {
