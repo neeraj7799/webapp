@@ -6,6 +6,11 @@ app.use(express.static(__dirname+'/frontend'));
 
 app.get('/',function(req,res) {
 	// res.send("Hello World");
+	res.sendFile(__dirname+'/frontend/html/home.html');
+})
+
+app.get('/cover_letter',function(req,res) {
+	// res.send("Hello World");
 	res.sendFile(__dirname+'/frontend/html/cover_letter.html');
 })
 
