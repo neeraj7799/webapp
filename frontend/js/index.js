@@ -5,7 +5,8 @@ console.log(radius);
 ctx.translate(radius, radius);
 console.log(radius);
 radius = radius * 0.90
-drawClock();
+// drawClock();
+setInterval(drawClock, 1000);
 // function drawClock() {
 //     ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
 //     ctx.fillStyle = "white";
@@ -17,6 +18,7 @@ function drawClock() {
     drawNumbers(ctx, radius);
     drawTime(ctx, radius);
   }
+
   
   function drawFace(ctx, radius) {
     var grad;
