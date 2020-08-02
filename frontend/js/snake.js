@@ -8,17 +8,15 @@ var snake;
 
 (function setup() {
     snake=new drawSnake();
-    snake.draw();
+    window.setInterval(() => {
+        ctx.clearRect(0,0,canvas.width,canvas.height);
+        snake.update();
+        snake.draw();
+    }, 250 );
 }());
+
+
 
 
 // const { text } = require("express");
 
-function drawSnake(){
-    this.x=0;
-    this.y=0;
-    this.draw=function() {
-        ctx.fillStyle = "#FFFFFF";
-        ctx.fillRect(this.x,this.y,scale,scale);
-    }
-}
