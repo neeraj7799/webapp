@@ -1,4 +1,4 @@
-var canvas=document.querySelector(".snake");
+var canvas=document.getElementById("snake");
 var ctx=canvas.getContext("2d");
 var scale=10;
 var rows=canvas.height/scale;
