@@ -18,6 +18,15 @@ app.get('/resume',function(req,res) {
 	// res.send("Hello World");
 	res.sendFile(__dirname+'/frontend/html/index.html');
 })
+app.get('/snake',function(req,res) {
+	// res.send("Hello World");
+	res.sendFile(__dirname+'/frontend/html/snake.html');
+})
+app.get('/clock',function(req,res) {
+	// res.send("Hello World");
+	res.sendFile(__dirname+'/frontend/html/clock.html');
+})
+
 
 var port=process.env.PORT || 30000;
 
