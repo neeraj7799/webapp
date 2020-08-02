@@ -38,8 +38,7 @@ function drawSnake(){
         ctx.fillStyle = "#FFFFFF";
         for (let i=0; i<this.tail.length-1;i--){
             ctx.fillRect(this.tail[i].x,this.tail[i].y,scale,scale);
-            this.tail[i]=this.tail[i+1];
-            this.tail[this.total-1]={x:this.x,y:this.y};
+
         }
         
     }
