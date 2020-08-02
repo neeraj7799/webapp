@@ -3,7 +3,7 @@ function drawSnake(){
     this.y=0;
     this.xspeed= scale=1;
     this.yspeed=0;
-    this.draw=function() {
+    this.snake=function() {
         ctx.fillStyle = "#FFFFFF";
         ctx.fillRect(this.x,this.y,scale,scale);
     }
