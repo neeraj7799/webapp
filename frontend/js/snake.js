@@ -7,6 +7,6 @@ var columns=canvas.width/scale;
 var snake;
 
 (function setup() {
-    snake=new drawSnake();
+    snake=new Snake();
     snake.draw();
 }());
