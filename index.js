@@ -27,6 +27,11 @@ app.get('/clock',function(req,res) {
 	res.sendFile(__dirname+'/frontend/html/clock.html');
 })
 
+app.get('/housie',function(req,res) {
+	// res.send("Hello World");
+	res.sendFile(__dirname+'/frontend/html/housie.html');
+})
+
 
 var port=process.env.PORT || 30000;
 
