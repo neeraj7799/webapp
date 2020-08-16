@@ -8,6 +8,7 @@ $(function(){
     $("button").click(function(){
         prev=random;
         random = Math.floor(Math.random() * (max-min+1) )+min;
+        console.log(random);
         random++;
         if(count==101){
             alert("Limit Exhausted");
@@ -15,6 +16,7 @@ $(function(){
         else{
             while(number[random]=="true"){
                 random = Math.floor(Math.random() * (max-min+1))+min;
+                console.log(random);
 
             }
                 number[random]="true";
