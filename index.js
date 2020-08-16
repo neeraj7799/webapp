@@ -32,6 +32,11 @@ app.get('/housie',function(req,res) {
 	res.sendFile(__dirname+'/frontend/html/housie.html');
 })
 
+app.get('/form',function(req,res) {
+	// res.send("Hello World");
+	res.sendFile(__dirname+'/frontend/html/mongosample.html');
+})
+
 
 var port=process.env.PORT || 30000;
 
