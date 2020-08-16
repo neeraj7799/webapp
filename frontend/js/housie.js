@@ -1,7 +1,7 @@
 $(function(){
     var prev;
     var min=1;
-    var max=90;
+    var max=100;
     var count=0;
     var number=[];
     var random;
@@ -9,7 +9,7 @@ $(function(){
         prev=random;
         random = Math.floor(Math.random() * (max-min+1) )+min;
         random++;
-        if(count==90){
+        if(count==100){
             alert("Limit Exhausted");
         }
         else{
@@ -28,8 +28,8 @@ $(function(){
          var a=$("td");
         var c=0;
       a.each(function(){
-        if(c==random){
-             random= random.toString();
+        if(c==random-1){
+             random= (random).toString();
               console.log(typeof(random));
              
               $(this).html("<span>"+random.toString()+"</span>");    
