@@ -1,20 +1,59 @@
 <html>
-    <head>
-
-        <link rel="stylesheet" href="/css/housie.css">
-    </head>
-    <body>
-        <h1 id='h1Heading'>Dynamic Data Table</h1>
-        <button id='btnGetData'>Get Data</button>
-        <!--
-        <button id='btnGetData' onclick="getServerData()">Get Data</button>
-        -->
-        <div id='table-data'>
-            <!-- Dynamic Table will be Added Here -->
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/tambola.css">
+</head>
+<title>Tambola</title>
+<body> 
+  <div class="head">
+    <h1>Tambola</h1>
+  </div>
+  <div class="number">
+    0
+  </div>
+  <div class="button">
+    <button>Generate number</button>
+  </div>
+  <div class="list">
+    <ul>
+          <li>
+            Early Five
+          </li> 
+          <li>
+            Rows Completion,<br> 3 Allowed
+          </li>
+          <li>
+            Full Housie
+          </li>  
+          <li>
+            King - Queen. Smallest & Largest number in ticket
+          </li>
+        </ul>
+        Previous no:<div class="previous">
+            0
         </div>
-        <h6>Table Completed</h6>
+    </div>
+    <div class="table adjust">
+      <table>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/housie.js"></script>
-    </body>
+      </table>
+
+  </div>
+ 
+     
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+     <script src="/js/tambola.js"></script> 
+</body>
 </html>

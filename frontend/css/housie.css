@@ -1,0 +1,63 @@
+table{
+    margin-left: 14%;
+} 
+.head{
+    text-align: center;
+    background-color: cadetblue;
+}
+.button{
+    text-align: center;
+    height: 50px;
+    
+}
+.list{
+    text-align:center;
+    font-style: italic;
+}
+table,tr,td{
+
+  
+    border:   1px solid red;  
+    
+    
+}
+
+.previous{
+    text-align:center;
+    font-size: 100px;
+    font-style: normal;
+    font: x-large;
+}
+td{
+    min-width:90px;
+    height: 35.2px;
+    font-size: 23px;
+    text-align: left;
+    padding: 0px !important;
+    margin: 0%;
+}
+.number{
+font-size: 70px;
+text-align: center;
+padding-bottom: 13px;
+color:blue;
+padding-top: 30px;
+}
+td{
+    min-width:90px;
+    height: 35.2px;
+    font-size: 23px;
+    text-align: left;
+    padding: 0px !important;
+    margin: 0%;
+}
+
+.adjust{
+    width: 40%;
+    float: left;
+}
+    .adjust{
+        float :none;
+        min-width:100%;
+        margin-bottom: 30px;
+    }
