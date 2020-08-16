@@ -9,20 +9,17 @@ $(function(){
         prev=random;
         random = Math.floor(Math.random() * (max-min+1) )+min;
         random++;
-        if(count==101){
-            alert("Limit Exhausted");
-        }
-        else{
-            while(number[random]=="true"){
-                random = Math.floor(Math.random() * (max-min+1))+min;
+        
+        while(number[random]=="true"){
+            random = Math.floor(Math.random() * (max-min+1))+min;
 
-            }
-                number[random]="true";
-            count++;
-            if(count>1){
-                
-                 $(".previous").html(prev)         
         }
+            number[random]="true";
+        count++;
+        if(count>1){
+            
+                $(".previous").html(prev)         
+        
         
             $(".number").html(random)
          var a=$("td");
